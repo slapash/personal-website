@@ -1,0 +1,23 @@
+
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    left: 50%;
+    bottom: 0;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    #graph-container {
+        margin-top: 10px; /* Adjust this value to move the graph higher on mobile */
+        height:fit-content;
+    }
+}

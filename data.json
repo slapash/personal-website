@@ -1,0 +1,15 @@
+{
+    "nodes": [
+        { "id": "Your Name", "image": "static/prenom.png", "url": "https://yourwebsite.com", "size":250 },
+        { "id": "blender", "image": "static/blender.png", "url": "https://tool1website.com", "size":65 },
+        { "id": "makecode", "image": "static/makecode.png", "url": "https://tool2website.com", "size":50 },
+        { "id": "python", "image": "static/python.png", "url": "https://interest1website.com", "size":65 },
+        { "id": "scratch", "image": "static/scratch.png", "url": "https://scratch.com", "size":60 }
+    ],
+    "links": [
+        { "source": "Your Name", "target": "blender" },
+        { "source": "Your Name", "target": "makecode" },
+        { "source": "Your Name", "target": "python" },
+        { "source": "Your Name", "target": "scratch" }
+    ]
+}
